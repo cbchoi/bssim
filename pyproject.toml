@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bssim"
+version = "0.0.1"
+authors = [
+  { name="Changbeom Choi", email="me@cbchoi.info" },
+]
+dependencies = ["pyevsim>=1.0"]
+description = "Base Station Simulator"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/cbchoi/bssim"
+Issues = "https://github.com/cbchoi/bssim/issues"
